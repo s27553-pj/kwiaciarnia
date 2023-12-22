@@ -1,0 +1,82 @@
+.flower-container {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	height: 400px;
+}
+.flower-container img {
+	height: 70%;
+	/* width: auto; */
+	/* object-fit: cover; */
+}
+
+.btn-hidden {
+	display: none;
+	/* position: absolute;
+	/* bottom: 5px;
+	left: 50%;
+	transform: translateX(-50%); */
+}
+.flower-container:hover .btn-hidden {
+	display: inline-block;
+}
+.flower-container:hover {
+	box-shadow: 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border: 1px solid grey;
+}
+#flowerimg {
+	max-height: 400px;
+	width: 80%;
+	align-items: center;
+}
+#flowerimgbasket {
+	max-height: 100px;
+}
+#flower-details {
+	display: none;
+}
+#flower-price{
+	font-weight: bold;
+}
+table {
+	text-align: center;
+}
+#showorder{
+	display: none;
+}
+nav button{
+	background: none;
+	border: 0;
+	color: white;
+}
+#empty-cart{
+	display: none;
+}
+@media only screen and (max-width:500px){
+	#fresh{
+		display: none;
+	}
+	#delivery{
+		display: none;
+	}
+}
+#finalorder{
+display: none;
+}
+#display{
+	display: none;
+}
+#summary{
+	display: none;
+	max-width: 800px;
+
+}
+#displaycontacts{
+	max-width: 800px;
+}
+#end{
+	display: none;
+}
+#accept{
+	display: none;
+}
