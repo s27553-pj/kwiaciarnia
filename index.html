@@ -152,7 +152,7 @@
                 <div class="col-12 col-md-6 mt-5 d-flex justify-content-center align-items-center images p-4">
                     <form name="calculate" onsubmit="addtocart(flowername,event)" class="p-5">
 
-                        <label>Wybierz iloś kwiatów do bukietu</label><br>
+                        <label>Wybierz ilość kwiatów do bukietu</label><br>
                         <input type="number" value="1" min="1"  name="quantity">
                         <input type="hidden" name="flowernameinput" value="" id="flowernameinput">
                         <input type="hidden" name="priceinput" value id="priceinput">
@@ -271,12 +271,14 @@
         <div id="summary" class="p-2 border rounded m-3"></div>
         <button id="accept" onclick="endorder()" class="btn btn-secondary">Zatwierdź zamówienie</button>
     </div>
-    <div id="end" class="text-center p-5 flex-grow-1">
-        <div class="container justify-content-center">
+    <div id="end" class="p-5 flex-grow-1">
+        <div class="container">
+            <div class="row">
         <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
             <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
         </svg>
-        <p>Dziękujemy za złożenie zamówienia</p>
+        <p class="text-center">Dziękujemy za złożenie zamówienia</p>
+        </div>
         </div>
     </div>
     <div class=" mt-4 p-4 bg-dark text-white text-center">
