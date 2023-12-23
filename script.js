@@ -44,7 +44,7 @@ const flowers = {
 		price:12,
 	},
 	'lily-white': {
-		name: 'Białas lilia',
+		name: 'Biała lilia',
 		picture: 'lily-white.jpg',
 		describe:
 			'Biała lilia jest symbolem czystości, niewinności i delikatności. Jej piękne, białe płatki sprawiają, że jest popularnym wyborem na różnego rodzaju uroczystości, zwłaszcza tych związanych z miłością i nowym początkiem. To kwiat o długiej historii, obecny w kulturze i symbolice wielu społeczeństw.Kwiaty białej lilii są często używane w bukietach ślubnych, gdzie reprezentują czystość uczuć i wierność. Ich subtelny zapach dodaje romantyzmu i sprawia, że są one doskonałym wyborem na wyjątkowe okazje.',
@@ -277,5 +277,14 @@ function endorder(){
 	enddiv.style.display='block'
 	basket.style.display='none'
 	field.style.display='none'
+	refresh()
 }
+function refresh(){
+	let time=7000
+	setTimeout(function () {
+		location.reload();
+	},time)
+
+}
+
 
